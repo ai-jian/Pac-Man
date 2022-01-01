@@ -1,0 +1,68 @@
+body {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  height: 900px;
+  border: 10px solid rgb(58, 61, 63);
+  border-radius: 10px;
+}
+
+.grid div {
+  width: 30px;
+  height: 30px;
+}
+
+.pac-dot {
+  background-color: orange;
+  border: 10px solid antiquewhite;
+  box-sizing: border-box;
+}
+
+.wall {
+  background-color: cadetblue;
+}
+
+.power-pellet {
+  background-color: orange;
+  border-radius: 15px;
+}
+
+.blinky {
+  background-color: tomato;
+  border: 0px;
+}
+
+.pinky {
+  background-color: pink;
+  border: 0px;
+}
+
+.inky {
+  background-color: indigo;
+  border: 0px;
+}
+
+.icey {
+  background-color: lightblue;
+  border: 0px;
+}
+
+.scared-ghost {
+  background-color: cyan;
+  border: 0px;
+}
+
+.pac-man {
+  background-color: yellow;
+  border-radius: 15px;
+  border: none;
+}
